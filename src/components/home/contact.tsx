@@ -3,17 +3,28 @@ import SectionHeading from '@/components/section-heading';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import Link from 'next/link';
+import type { SVGProps } from 'react';
 
-const StackOverflowIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 16 16" fill="currentColor" {...props}>
-    <path d="M12.41 13.419H3.59V11.8h8.82v1.619zM3.59 7.03h.14L12.15 8l.14-.98L4.01 5.92l-.28.981h-.14zm.04 3.05H12.2v-1.12H3.63v1.12zm5.74-5.039l-.57.78 6.001 4.38.57-.78-6.001-4.38zm-4.48 2.45l-.78-.57 4.38-6.001.78.57-4.38 6.001zM11.5 15h-7V9.92h1.12V13.88h4.76V9.92h1.12V15z"/>
-  </svg>
-);
-
+function StackOverflowIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="1em"
+      height="1em"
+      viewBox="0 0 24 24"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="M19 18.25a2.25 2.25 0 0 1-2.25 2.25H7.25A2.25 2.25 0 0 1 5 18.25v-5.5h1.5v5.5a.75.75 0 0 0 .75.75h9.5a.75.75 0 0 0 .75-.75v-5.5H19zM8.65 16h6.7v-1.5h-6.7zm.65-3.5h5.5l.6 1.35l1.35-.6l-3.35-7.5l-1.35.6L12 11.2l-2.15-4.8l-1.35.6zM12 4.05l1.8 4l-3.6 8.1h3.55l1.3-2.9h2.2l-3.75 8.35h-9L12 4.05z"
+      ></path>
+    </svg>
+  )
+}
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-secondary/50">
+    <section id="contact" className="bg-secondary/50 py-24">
       <div className="container">
         <SectionHeading
           title="Get in Touch"
