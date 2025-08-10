@@ -13,7 +13,7 @@ const projects = [
     image: 'https://placehold.co/600x400.png',
     imageHint: 'search engine resume',
     tags: ['Python', 'Java', 'Spring', 'Machine Learning'],
-    githubUrl: 'https://github.com/Vishavjeet6/Resume-Search-Engine',
+    githubUrl: 'https://github.com/Vishavjeet6/ResumeSearchEngine',
   },
   {
     title: 'Travel Portal',
@@ -21,15 +21,15 @@ const projects = [
     image: 'https://placehold.co/600x400.png',
     imageHint: 'travel booking',
     tags: ['Angular', 'Spring Boot'],
-    githubUrl: 'https://github.com/Vishavjeet6/Travel-Portal',
+    githubUrl: 'https://github.com/Vishavjeet6/AngularTravelPortal',
   },
   {
-    title: 'Notification Service',
-    description: 'Service APIs that let users receive notifications through SMS, email, and web according to the services they subscribed to so that they do not miss any important news.',
+    title: 'Awesome Copilot Instructions',
+    description: 'A collection of awesome instructions for GitHub Copilot, to help users get the most out of the AI pair programmer.',
     image: 'https://placehold.co/600x400.png',
-    imageHint: 'notification bell',
-    tags: ['API', 'Spring Boot'],
-    githubUrl: 'https://github.com/Vishavjeet6/Notification-Service',
+    imageHint: 'AI code',
+    tags: ['GitHub Copilot', 'AI', 'Instructions'],
+    githubUrl: 'https://github.com/Vishavjeet6/awesome-copilot-instructions',
   },
 ];
 
