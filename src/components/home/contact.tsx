@@ -1,8 +1,15 @@
-import { Mail, Phone, Github, Linkedin, Instagram, TowerControl } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, Instagram } from 'lucide-react';
 import SectionHeading from '@/components/section-heading';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import Link from 'next/link';
+
+const StackOverflowIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 384 512" fill="currentColor" {...props}>
+    <path d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2-70.1l-188.3 85.3 12.5 34.2 188.3-85.3zm-25.5 184.3l-205.6 62.3 20.9 34.4 205.6-62.3zM384 0H0v512h384V0zM128 440H64v-32h64zm128 0h-64v-32h64zm112-256l-32-32-160 128-160-128-32 32 192 152z"/>
+  </svg>
+);
+
 
 export default function Contact() {
   return (
@@ -45,10 +52,10 @@ export default function Contact() {
                  <Link href="https://www.linkedin.com/in/vishavjeets/" target="_blank" rel="noreferrer">
                     <Linkedin className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
                  </Link>
-                 <Link href="#" target="_blank" rel="noreferrer">
-                    <TowerControl className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
+                 <Link href="https://stackoverflow.com/users/7673019/vishavjeet" target="_blank" rel="noreferrer">
+                    <StackOverflowIcon className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
                  </Link>
-                 <Link href="#" target="_blank" rel="noreferrer">
+                 <Link href="https://www.instagram.com/vishavjeet_vt/" target="_blank" rel="noreferrer">
                     <Instagram className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
                  </Link>
               </div>
