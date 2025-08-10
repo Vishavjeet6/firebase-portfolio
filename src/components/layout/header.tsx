@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { CodeXml } from 'lucide-react';
+import { ThemeToggle } from '../theme-toggle';
 
 export default function Header() {
   return (
@@ -18,6 +19,7 @@ export default function Header() {
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
+          <ThemeToggle />
         </div>
       </div>
     </header>
