@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
     ],
   },
   experimental: {
-    serverComponentsExternalPackages: ['@genkit-ai/googleai'],
+    serverComponentsExternalPackages: ['@genkit-ai/googleai', 'async_hooks'],
   },
 };
 
