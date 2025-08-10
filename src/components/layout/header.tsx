@@ -15,6 +15,7 @@ export default function Header() {
             <Link href="/#projects" className="transition-colors hover:text-primary">Projects</Link>
             <Link href="/#experience" className="transition-colors hover:text-primary">Experience</Link>
             <Link href="/#skills" className="transition-colors hover:text-primary">Skills</Link>
+            <Link href="/#contact" className="transition-colors hover:text-primary">Contact</Link>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
