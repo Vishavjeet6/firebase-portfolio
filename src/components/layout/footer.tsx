@@ -11,10 +11,10 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="https://github.com/vishavjeet-thakur" target="_blank" rel="noreferrer">
+          <Link href="https://github.com/Vishavjeet6" target="_blank" rel="noreferrer">
             <Github className="h-6 w-6 hover:text-primary transition-colors" />
           </Link>
-          <Link href="https://www.linkedin.com/in/vishavjeet-thakur/" target="_blank" rel="noreferrer">
+          <Link href="https://www.linkedin.com/in/vishavjeets/" target="_blank" rel="noreferrer">
             <Linkedin className="h-6 w-6 hover:text-primary transition-colors" />
           </Link>
         </div>
