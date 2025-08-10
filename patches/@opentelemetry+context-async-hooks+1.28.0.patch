@@ -1,0 +1,36 @@
+diff --git a/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.js b/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.js
+index 455353d..1372e39 100644
+--- a/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.js
++++ b/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.js
+@@ -17,7 +17,12 @@
+  */
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.AsyncHooksContextManager = void 0;
+-const asyncHooks = require("async_hooks");
++let asyncHooks;
++try {
++    asyncHooks = require("async_hooks");
++} catch (e) {
++    // ignore
++}
+ const AbstractAsyncHooksContextManager_1 = require("./AbstractAsyncHooksContextManager");
+ class AsyncHooksContextManager extends AbstractAsyncHooksContextManager_1.AbstractAsyncHooksContextManager {
+     constructor() {
+diff --git a/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.mjs b/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.mjs
+index 9b88a9a..425553b 100644
+--- a/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.mjs
++++ b/node_modules/@opentelemetry/context-async-hooks/build/src/AsyncHooksContextManager.mjs
+@@ -15,7 +15,12 @@
+  * file that was distributed with this source code.
+  *
+  */
+-import * as asyncHooks from 'async_hooks';
++let asyncHooks;
++try {
++    asyncHooks = await import('async_hooks');
++} catch (e) {
++    // ignore
++}
+ import { AbstractAsyncHooksContextManager } from './AbstractAsyncHooksContextManager';
+ class AsyncHooksContextManager extends AbstractAsyncHooksContextManager {
+     constructor() {
