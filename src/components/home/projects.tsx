@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -10,24 +9,18 @@ const projects = [
   {
     title: 'Resume Search Engine',
     description: 'Developed a Resume Search Engine which extracts information like name, skills, phone number, email, education, degree using Machine Learning and regex, and indexes all the information using Elasticsearch to easily filter resume based on search.',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'search engine resume',
     tags: ['Python', 'Java', 'Spring', 'Machine Learning'],
     githubUrl: 'https://github.com/Vishavjeet6/ResumeSearchEngine',
   },
   {
     title: 'Travel Portal',
     description: 'A web application for users to generate travel tickets and for admins to review and modify them.',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'travel booking',
     tags: ['Angular', 'Spring Boot'],
     githubUrl: 'https://github.com/Vishavjeet6/AngularTravelPortal',
   },
   {
     title: 'Awesome Copilot Instructions',
     description: 'A collection of awesome instructions for GitHub Copilot, to help users get the most out of the AI pair programmer.',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'AI code',
     tags: ['GitHub Copilot', 'AI', 'Instructions'],
     githubUrl: 'https://github.com/Vishavjeet6/awesome-copilot-instructions',
   },
@@ -44,16 +37,6 @@ export default function Projects() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
             <Card key={index} className="flex flex-col overflow-hidden transition-transform transform hover:-translate-y-2">
-              <CardHeader className="p-0">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={600}
-                  height={400}
-                  className="aspect-video w-full object-cover"
-                  data-ai-hint={project.imageHint}
-                />
-              </CardHeader>
               <CardContent className="p-6 flex-grow">
                 <CardTitle className="font-headline text-xl mb-2">{project.title}</CardTitle>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
