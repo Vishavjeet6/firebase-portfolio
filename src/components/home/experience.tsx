@@ -3,33 +3,45 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 
 const experiences = [
   {
-    company: 'Tech Solutions Inc.',
-    role: 'Senior Software Engineer',
-    period: '2020 - Present',
+    company: 'IG Group',
+    role: 'Software Developer Engineer',
+    period: 'Mar 2023 - Present',
     description: [
-      'Led the development of a high-traffic web application using React and Node.js.',
-      'Mentored junior developers and conducted code reviews to ensure code quality.',
-      'Improved application performance by 30% by optimizing database queries and frontend rendering.',
+      'Led the successful migration of a core application to Nomad as part of a PoC, setting the foundation for wider adoption.',
+      'Implemented Redis caching for a latency-critical app, reducing response time from 200ms to 15ms.',
+      'Increased ActiveMQ message consumption from 1,000 to 8,000 msg/min, improving real-time data processing.',
+      'Spearheaded containerization, enhanced CI/CD pipelines, and modernized legacy systems, improving app maturity.',
+      'Collaborated across teams to integrate external data sources, creating a single source of truth and reducing vendor API calls, resulting in cost savings.',
+      'Improved deployment processes and overall system performance for critical trading applications.',
     ],
   },
   {
-    company: 'Innovate Co.',
-    role: 'Software Engineer',
-    period: '2018 - 2020',
+    company: 'Tata Consultancy Services',
+    role: 'Software Developer Engineer',
+    period: 'Sep 2020 - Mar 2023',
     description: [
-      'Developed and maintained features for a large-scale SaaS platform.',
-      'Collaborated with cross-functional teams to define and ship new features.',
-      'Wrote and maintained unit and integration tests to ensure application stability.',
+      'Developed and maintained microservices and RESTful APIs using Spring and Hibernate.',
+      'Led the implementation and support of multiple client projects from concept to deployment.',
+      'Improved application performance and scalability through optimization techniques and debugging tools.',
+      'Collaborated with senior developers to deliver code fixes and new features, following agile methodologies.',
+      'Successfully migrated a Legacy Application to Google Cloud Platform, resulting in increased reliability and scalability.',
     ],
   },
   {
-    company: 'Startup Hub',
-    role: 'Junior Web Developer',
-    period: '2016 - 2018',
+    company: 'Nagarro',
+    role: 'Trainee',
+    period: 'Jan 2020 - Sep 2020',
     description: [
-      'Assisted in the development of client websites using HTML, CSS, and JavaScript.',
-      'Gained experience with modern frontend frameworks like Vue.js.',
-      'Contributed to the full software development lifecycle, from concept to deployment.',
+      'Developed a Travel Portal web application using Angular for the frontend and Spring Boot for the backend.',
+      'Built service APIs that let users receive notifications through SMS, email, and web.',
+    ],
+  },
+    {
+    company: 'Nagarro',
+    role: 'Bootcamp Intern',
+    period: 'June 2019 - June 2019',
+    description: [
+      'Built a WhatsApp Chatbot in Python which can reply to user queries like news, weather, movies, Wikipedia search using Machine Learning.',
     ],
   },
 ];

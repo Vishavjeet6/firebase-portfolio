@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' });
 
 export const metadata: Metadata = {
-  title: 'Devfolio',
-  description: 'A professional software developer web resume and portfolio.',
+  title: 'Vishavjeet Singh | Software Engineer',
+  description: 'Portfolio of Vishavjeet Singh, a results-driven Software Engineer with 5+ years of experience.',
 };
 
 export default function RootLayout({

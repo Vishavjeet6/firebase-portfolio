@@ -1,0 +1,55 @@
+Vishavjeet Singh
+(91) 9815-581276 ∙ vishavjeetsinghthakur@gmail.com ∙ LinkedIn ∙ GitHub ∙ Bengaluru, India
+
+OBJECTIVE
+Results-driven Software Engineer with 5+ years of experience in building scalable microservices, cloud-native applications, and performance-optimized systems. Adept in backend development, containerization, and system design with a strong focus on reducing latency and improving architecture. Looking to contribute to impactful engineering teams driving innovation.
+
+WORK EXPERIENCE
+IG Group, Bengaluru Mar 2023 – present
+Software Developer Engineer
+● Led the successful migration of a core application to Nomad as part of a PoC, setting the foundation for wider adoption.
+● Implemented Redis caching for a latency-critical app, reducing response time from 200ms to 15ms.
+● Increased ActiveMQ message consumption from 1,000 to 8,000 msg/min, improving real-time data processing.
+● Spearheaded containerization, enhanced CI/CD pipelines, and modernized legacy systems, improving app maturity.
+● Collaborated across teams to integrate external data sources, creating a single source of truth and reducing vendor API calls, resulting in cost savings.
+● Improved deployment processes and overall system performance for critical trading applications.
+
+Tata Consultancy Services, Bengaluru Sep 2020 – Mar 2023
+Software Developer Engineer
+● Developed and maintained microservices and RESTful APIs using Spring and Hibernate.
+● Led the implementation and support of multiple client projects from concept to deployment, including requirements gathering, project planning, design, testing, and maintenance.
+● Improved application performance and scalability through the use of optimization techniques and debugging tools.
+● Collaborated with senior developers to deliver code fixes and new features, ensuring project deliverables meet client requirements and industry standards and followed agile methodologies.
+● Successfully migrated Legacy Application to Google Cloud Platform, resulting in increased reliability and scalability for clients.
+
+Nagarro, Gurugram Jan 2020 – Sep 2020
+Trainee
+● Developed a Travel Portal web application for the users to generate tickets and admin can review/modify it using Angular as frontend and Spring Boot as backend.
+● Developed and built service APIs that lets users receive notifications through SMS, email, and web according to the services they subscribed to so that they do not miss any important news.
+
+Nagarro, Gurugram June 2019 – June 2019
+Bootcamp Intern
+● Built a WhatsApp Chatbot in Python which can reply to user queries like news, weather, movies, Wikipedia search using Machine Learning.
+
+EDUCATION
+Guru Nanak Dev University, Amritsar, Punjab 2016 - 2020
+Degree: Bachelors of Technology in Computer Science and Engineering
+CGPA: 9.4/10
+
+PROJECTS
+Resume Search Engine (Skills: Python, Java, Spring, Machine Learning) - GitHub
+● Developed a Resume Search Engine which extracts information like name, skills, phone number, email, education, degree using Machine Learning and regex, and indexes all the information using Elasticsearch to easily filter resume based on search.
+
+TECH SKILLS
+Programming: Java, Python, JavaScript, Shell Scripting
+Web Technologies: RESTful APIs, HTML, CSS, Bootstrap, Angular, Flask
+Cloud Technologies: Googe Cloud (Compute Engine, Kubernetes, Google Storage)
+Databases: SQL, MySQL, Oracle, Cloud SQL, Redis
+Frameworks: Spring Boot, Maven, MVC, Microservices, Kafka
+Other Tools: Git, CI/CD, Linux, Docker, Postman, Jenkins, GitLab, Docker, Nomad, Pandas, NumPy
+Other: Competitive Coding, System Design, Data Structures, Algorithms, OOP, Software Engineering, Databases, Multi-Threading, Machine Learning, Deep Learning
+
+ACHIEVEMENTS AND RESPONSIBILITIES
+● Associate Google Cloud Engineer Certified
+● Received On the Spot (Team) Award and Star of the Month Award from TCS for fixing the critical vulnerabilities on time.
+● Special Recognition and On-The-Sport Award from IG Group for showing extraordinary zeal to learn.
