@@ -5,8 +5,8 @@ import { Separator } from '@/components/ui/separator';
 import Link from 'next/link';
 
 const StackOverflowIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 384 512" fill="currentColor" {...props}>
-    <path d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2-70.1l-188.3 85.3 12.5 34.2 188.3-85.3zm-25.5 184.3l-205.6 62.3 20.9 34.4 205.6-62.3zM384 0H0v512h384V0zM128 440H64v-32h64zm128 0h-64v-32h64zm112-256l-32-32-160 128-160-128-32 32 192 152z"/>
+  <svg viewBox="0 0 16 16" fill="currentColor" {...props}>
+    <path d="M12.41 13.419H3.59V11.8h8.82v1.619zM3.59 7.03h.14L12.15 8l.14-.98L4.01 5.92l-.28.981h-.14zm.04 3.05H12.2v-1.12H3.63v1.12zm5.74-5.039l-.57.78 6.001 4.38.57-.78-6.001-4.38zm-4.48 2.45l-.78-.57 4.38-6.001.78.57-4.38 6.001zM11.5 15h-7V9.92h1.12V13.88h4.76V9.92h1.12V15z"/>
   </svg>
 );
 
