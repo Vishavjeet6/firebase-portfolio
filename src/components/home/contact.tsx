@@ -20,8 +20,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-headline text-lg">Email</p>
-                    <a href="mailto:vishavjeet.s@northeastern.edu" className="text-muted-foreground hover:text-primary">
-                      vishavjeet.s@northeastern.edu
+                    <a href="mailto:vishavjeetsinghthakur@gmail.com" className="text-muted-foreground hover:text-primary">
+                      vishavjeetsinghthakur@gmail.com
                     </a>
                   </div>
                 </div>
@@ -31,7 +31,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-headline text-lg">Phone</p>
-                    <p className="text-muted-foreground">+1 (857) 313-8200</p>
+                    <p className="text-muted-foreground">+91 9815581276</p>
                   </div>
                 </div>
               </div>
