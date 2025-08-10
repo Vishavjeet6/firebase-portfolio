@@ -1,6 +1,8 @@
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Github, Linkedin, Instagram, TowerControl } from 'lucide-react';
 import SectionHeading from '@/components/section-heading';
 import { Card, CardContent } from '@/components/ui/card';
+import { Separator } from '@/components/ui/separator';
+import Link from 'next/link';
 
 export default function Contact() {
   return (
@@ -34,6 +36,21 @@ export default function Contact() {
                     <p className="text-muted-foreground">+91 9815581276</p>
                   </div>
                 </div>
+              </div>
+              <Separator className="my-6" />
+              <div className="flex justify-center gap-6">
+                 <Link href="https://github.com/Vishavjeet6" target="_blank" rel="noreferrer">
+                    <Github className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
+                 </Link>
+                 <Link href="https://www.linkedin.com/in/vishavjeets/" target="_blank" rel="noreferrer">
+                    <Linkedin className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
+                 </Link>
+                 <Link href="#" target="_blank" rel="noreferrer">
+                    <TowerControl className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
+                 </Link>
+                 <Link href="#" target="_blank" rel="noreferrer">
+                    <Instagram className="h-8 w-8 text-muted-foreground transition-colors hover:text-primary" />
+                 </Link>
               </div>
             </CardContent>
           </Card>
