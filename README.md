@@ -1,8 +1,8 @@
-# Firebase Studio
+# Vishavjeet Portfolio
 
-This is a NextJS starter in Firebase Studio.
+This is a NextJS portfolio website showcasing Vishavjeet Singh's professional experience and projects.
 
-To get started, take a look at src/app/page.tsx.
+The portfolio includes sections for projects, work experience, skills, and contact information.
 
 ## GitHub Pages Deployment
 
@@ -32,3 +32,5 @@ npm run build
 ```
 
 The static files will be generated in the `dist` directory.
+
+<!-- Trigger deployment refresh -->

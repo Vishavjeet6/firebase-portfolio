@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vishavjeet6.github.io/firebase-portfolio/sitemap.xml

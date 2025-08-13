@@ -21,6 +21,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 export const metadata: Metadata = {
   title: 'Vishavjeet Singh | Software Engineer',
   description: 'Portfolio of Vishavjeet Singh, a results-driven Software Engineer with 5+ years of experience.',
+  keywords: 'Vishavjeet Singh, Software Engineer, Portfolio, React, Next.js, Java, Python',
 };
 
 export default function RootLayout({
